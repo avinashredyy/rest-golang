@@ -45,8 +45,8 @@ func main() {
 	//2. We initalize the gorilla mux like below
 	r := mux.NewRouter()
 	//1. Gorilla mux here provides us this helper function like Methods() in the example below which take in the type of request
-	//as an argument and essentially says to http.HandleFunc() that, if the request is of type GET, execute line 52 or if the
-	//request is of type POST, execute line 53, so forth and so on.
+	//as an argument and essentially says to http.HandleFunc() that, if the request is of type GET, execute line 53 or if the
+	//request is of type POST, execute line 54, so forth and so on.
 	//2. If we had not used gorilla mux we would have had to identify the type of request that we recieve by deconstructing
 	//*http.Request and then exectuing lines of code or another function based on the type of request.
 	//3. So basically now we can execute a different method based on the type of request for the same path("/" in this example)
